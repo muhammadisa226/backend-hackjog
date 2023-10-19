@@ -22,9 +22,7 @@ npm install
 
 ### Configure database
 
-```sh
 change in file src/config/database.js
-```
 
 ### Run Server
 
