@@ -5,7 +5,7 @@ const cors = require("cors");
 const router = require("./src/routes/index.js");
 const { databaseSync } = require("./src/models/index.js");
 const app = express();
-const PORT = 2023;
+const PORT = 5000;
 app.use(cors());
 app.use(express.json());
 app.use(FileUpload());
